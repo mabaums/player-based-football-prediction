@@ -10,6 +10,6 @@ class Settings(BaseSettings):
     Attributes:
         DATABASE_URL (str): The URL for the PostgreSQL database.
     """
-    DATABASE_URL: str = os.getenv("DATABASE_URL")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/football")
 
 settings = Settings()

@@ -2,4 +2,3 @@ scraping/
 .idea/
 node_modules/
 dist/
-backend/__pycache__/

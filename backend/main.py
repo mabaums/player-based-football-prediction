@@ -4,7 +4,6 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from app.routes import router as api_router
 from database import Base, engine, get_db
-from app.utils import load_data
 from pathlib import Path
 
 # Create all database t
