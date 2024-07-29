@@ -2,3 +2,4 @@ scraping/
 .idea/
 node_modules/
 dist/
+openapi.json
